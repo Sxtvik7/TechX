@@ -1,96 +1,48 @@
-/* @import url('https://fonts.googleapis.com/css?family=Spartan: wght@100;200;300;400;500; 600;700; 800;900&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spartan: wght@100;200;300;400;500; 600;700; 800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spartan',sans-serif;
-    }
-    
-    h1{
+    /* font-family: sans-serif; */
+    font-family: 'Spartan', sans-serif
+}
+
+h1 {
     font-size: 50px;
     line-height: 64px;
     color: O#222;
-    }
-    
-    
-    h2{
+}
+
+
+h2 {
     font-size: 46px;
     line-height: 54px;
     color: O#222;
-    }
-    
-    h6{
+}
+
+h6 {
     font-weight: 700;
     font-size: 12px;
-    }
-    
-    P{
+}
+
+P {
     font-size: 16px;
     color: #465b52;
     margin: 15px e 20px 0;
-    }
-    
-    .section-p1 {
-        padding: 40px 80px;
-    }
-    
-    .section-m1 {
-        margin: 40px 0;}
-    
-    
-        body{
-            width: 100%;
-        }
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+
+body {
+    width: 100%;
+}
 
 /*--------------------------------------------------------------------*/
-
-#hero{
-    background-image: url("../assets/setup2.jpg");
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 60px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start ;
-    justify-content: center;
-}
-#hero h2{
-    color: #E3E6F3;
-}
-
-#hero h1{
-    padding-bottom:15px ;
-    color: floralwhite;
-}
-
-#hero p{
-    padding-bottom: 15px;
-}
-
-#hero button{
-    /* background-image: url(""); */
-    background: no-repeat center/auto url("../assets/button1.png");
-    background-size: cover;
-    background-color: transparent;
-    
-    border: 0;
-    padding: 14px 50px 14px 35px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 15px;
-  
-   
-    
-}
-
-#hero button a{
-    text-decoration: none;
-    margin-bottom: 10px;
-    color:#059188;
-
-}
