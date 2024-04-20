@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/https//sxtvik7.github.io/TechX/static/css/main.8e02912c.css",
-    "main.js": "/https//sxtvik7.github.io/TechX/static/js/main.32c2f8fb.js",
+    "main.css": "/https//sxtvik7.github.io/TechX/static/css/main.34fe0943.css",
+    "main.js": "/https//sxtvik7.github.io/TechX/static/js/main.37a05a66.js",
     "static/media/setup2.jpg": "/https//sxtvik7.github.io/TechX/static/media/setup2.b733653bcd5dbc9c9570.jpg",
     "static/media/EmptyCart.png": "/https//sxtvik7.github.io/TechX/static/media/EmptyCart.a77e8cf4ce223affb98a.png",
     "static/media/logo-techx.png": "/https//sxtvik7.github.io/TechX/static/media/logo-techx.18cefdf46423b3a5d2cc.png",
+    "static/media/mouse1.png": "/https//sxtvik7.github.io/TechX/static/media/mouse1.77f983f8d63648bf6878.png",
     "static/media/button1.png": "/https//sxtvik7.github.io/TechX/static/media/button1.17e6ae216ac9d8ebcb77.png",
     "index.html": "/https//sxtvik7.github.io/TechX/index.html",
-    "main.8e02912c.css.map": "/https//sxtvik7.github.io/TechX/static/css/main.8e02912c.css.map",
-    "main.32c2f8fb.js.map": "/https//sxtvik7.github.io/TechX/static/js/main.32c2f8fb.js.map"
+    "main.34fe0943.css.map": "/https//sxtvik7.github.io/TechX/static/css/main.34fe0943.css.map",
+    "main.37a05a66.js.map": "/https//sxtvik7.github.io/TechX/static/js/main.37a05a66.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e02912c.css",
-    "static/js/main.32c2f8fb.js"
+    "static/css/main.34fe0943.css",
+    "static/js/main.37a05a66.js"
   ]
 }
