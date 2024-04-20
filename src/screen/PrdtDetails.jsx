@@ -22,7 +22,7 @@ const PrdtDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:4000/api/v1/products/${id}`)
+      .get(`https://techx-backend.onrender.com/api/v1/products/${id}`)
       .then((response) => {
         setProduct(response.data);
         // console.log(response.data)
