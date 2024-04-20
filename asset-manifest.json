@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/https//sxtvik7.github.io/TechX/static/css/main.34fe0943.css",
-    "main.js": "/https//sxtvik7.github.io/TechX/static/js/main.37a05a66.js",
-    "static/media/setup2.jpg": "/https//sxtvik7.github.io/TechX/static/media/setup2.b733653bcd5dbc9c9570.jpg",
-    "static/media/EmptyCart.png": "/https//sxtvik7.github.io/TechX/static/media/EmptyCart.a77e8cf4ce223affb98a.png",
-    "static/media/logo-techx.png": "/https//sxtvik7.github.io/TechX/static/media/logo-techx.18cefdf46423b3a5d2cc.png",
-    "static/media/mouse1.png": "/https//sxtvik7.github.io/TechX/static/media/mouse1.77f983f8d63648bf6878.png",
-    "static/media/button1.png": "/https//sxtvik7.github.io/TechX/static/media/button1.17e6ae216ac9d8ebcb77.png",
-    "index.html": "/https//sxtvik7.github.io/TechX/index.html",
-    "main.34fe0943.css.map": "/https//sxtvik7.github.io/TechX/static/css/main.34fe0943.css.map",
-    "main.37a05a66.js.map": "/https//sxtvik7.github.io/TechX/static/js/main.37a05a66.js.map"
+    "main.css": "/TechX/static/css/main.4580068e.css",
+    "main.js": "/TechX/static/js/main.d66b1e30.js",
+    "static/media/setup2.jpg": "/TechX/static/media/setup2.b733653bcd5dbc9c9570.jpg",
+    "static/media/EmptyCart.png": "/TechX/static/media/EmptyCart.a77e8cf4ce223affb98a.png",
+    "static/media/logo-techx.png": "/TechX/static/media/logo-techx.18cefdf46423b3a5d2cc.png",
+    "static/media/button1.png": "/TechX/static/media/button1.17e6ae216ac9d8ebcb77.png",
+    "index.html": "/TechX/index.html",
+    "main.4580068e.css.map": "/TechX/static/css/main.4580068e.css.map",
+    "main.d66b1e30.js.map": "/TechX/static/js/main.d66b1e30.js.map"
   },
   "entrypoints": [
-    "static/css/main.34fe0943.css",
-    "static/js/main.37a05a66.js"
+    "static/css/main.4580068e.css",
+    "static/js/main.d66b1e30.js"
   ]
 }
