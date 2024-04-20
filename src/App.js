@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/sxtvik7.github.io/TechX" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/products/:id" element={<PrdtDetails />} />
         <Route path="/shop" element={<Products />} />
         <Route path="/cart" element={<Cart />} />
