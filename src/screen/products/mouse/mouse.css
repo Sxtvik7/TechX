@@ -1,4 +1,4 @@
-/* * {border: 1px solid red;} */
+* {border: 1px solid red;}
 
 .product1 {
    text-align: center;
@@ -19,7 +19,7 @@
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   width: calc(25% - 50px);
+   width: calc(25% - 40px);
    align-items: center;
    padding-top: 20px;
 }

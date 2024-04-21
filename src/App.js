@@ -20,6 +20,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/TechX" element={<Home />} />
         <Route path="/products/:id" element={<PrdtDetails />} />
         <Route path="/shop" element={<Products />} />
         <Route path="/cart" element={<Cart />} />
@@ -28,7 +29,7 @@ function App() {
         <Route path="/login" element={<LoginUser />} />
       </Routes>
       <Footer />
-      <Toaster/>
+      <Toaster />
     </Router>
   );
 }
