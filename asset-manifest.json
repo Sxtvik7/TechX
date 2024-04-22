@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TechX/static/css/main.630e1f0d.css",
-    "main.js": "/TechX/static/js/main.742c7272.js",
+    "main.js": "/TechX/static/js/main.047522d7.js",
     "static/media/setup2.jpg": "/TechX/static/media/setup2.b733653bcd5dbc9c9570.jpg",
     "static/media/EmptyCart.png": "/TechX/static/media/EmptyCart.a77e8cf4ce223affb98a.png",
     "static/media/logo-techx.png": "/TechX/static/media/logo-techx.18cefdf46423b3a5d2cc.png",
@@ -9,10 +9,10 @@
     "static/media/button1.png": "/TechX/static/media/button1.17e6ae216ac9d8ebcb77.png",
     "index.html": "/TechX/index.html",
     "main.630e1f0d.css.map": "/TechX/static/css/main.630e1f0d.css.map",
-    "main.742c7272.js.map": "/TechX/static/js/main.742c7272.js.map"
+    "main.047522d7.js.map": "/TechX/static/js/main.047522d7.js.map"
   },
   "entrypoints": [
     "static/css/main.630e1f0d.css",
-    "static/js/main.742c7272.js"
+    "static/js/main.047522d7.js"
   ]
 }
