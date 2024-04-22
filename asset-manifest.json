@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TechX/static/css/main.a91b6b37.css",
+    "main.css": "/TechX/static/css/main.630e1f0d.css",
     "main.js": "/TechX/static/js/main.742c7272.js",
     "static/media/setup2.jpg": "/TechX/static/media/setup2.b733653bcd5dbc9c9570.jpg",
     "static/media/EmptyCart.png": "/TechX/static/media/EmptyCart.a77e8cf4ce223affb98a.png",
@@ -8,11 +8,11 @@
     "static/media/mouse1.png": "/TechX/static/media/mouse1.77f983f8d63648bf6878.png",
     "static/media/button1.png": "/TechX/static/media/button1.17e6ae216ac9d8ebcb77.png",
     "index.html": "/TechX/index.html",
-    "main.a91b6b37.css.map": "/TechX/static/css/main.a91b6b37.css.map",
+    "main.630e1f0d.css.map": "/TechX/static/css/main.630e1f0d.css.map",
     "main.742c7272.js.map": "/TechX/static/js/main.742c7272.js.map"
   },
   "entrypoints": [
-    "static/css/main.a91b6b37.css",
+    "static/css/main.630e1f0d.css",
     "static/js/main.742c7272.js"
   ]
 }
