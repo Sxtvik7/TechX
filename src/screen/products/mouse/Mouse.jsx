@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./mouse.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
-// const img = require("../../../assets/mouse/mouse1.png")
+const img = require("../../../assets/mouse/mouse1.png")
 
 const Mouse = () => {
   const [products, setProducts] = useState([]);
@@ -12,7 +12,7 @@ const Mouse = () => {
       .get("http://localhost:4000/api/v1/products/")
       .then((response) => {
         setProducts(response.data);
-        // console.log(response.data[0]);
+        console.log(response.data[0]);
       })
       .catch((error) => console.error("Error fetching data: ", error));
   }, []);
@@ -25,7 +25,7 @@ const Mouse = () => {
           <div className="pro-container" key={product.id}>
             <Link to={`/products/${product.id}`}>
               <div className="pro">
-                <img src={product.image} alt={product.name} />
+                <img src={img} alt={product.name} />
                 <div className="des">
                   <span>{product.name}</span>
                   <h5>{product.description}</h5>
