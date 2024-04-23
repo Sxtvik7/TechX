@@ -10,6 +10,7 @@ import {
   removeFromCart,
 } from "./cartSlice";
 const img = require("../../assets/EmptyCart.png");
+// const imge = require("../../assets/mouse/mouse1.png")
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
