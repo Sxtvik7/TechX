@@ -6,7 +6,7 @@ import "./prdtdetails.css";
 import { addToCart } from "./Cart/cartSlice";
 import { ClipLoader } from "react-spinners";
 
-import image from "../../../assets/mouse/mouse5.png";
+import image from "../assets/mouse/mouse5.png";
 
 
 const PrdtDetails = () => {
