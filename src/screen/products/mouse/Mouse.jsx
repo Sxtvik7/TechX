@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./mouse.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
-const img = require("../../../assets/mouse/mouse1.png")
+import { ClipLoader } from "react-spinners";
+import image from "../../../assets/mouse/mouse3.png";
 
 const Mouse = () => {
+  const [loading, setLoading] = useState(true);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -12,10 +14,25 @@ const Mouse = () => {
       .get("https://techx-backend.onrender.com/api/v1/products")
       .then((response) => {
         setProducts(response.data);
-        // console.log(response.data[0]);
+        console.log(response.data[2].image);
+        setLoading(false);
       })
-      .catch((error) => console.error("Error fetching data: ", error));
+      .catch((error) => {
+        console.error("Error fetching data: ", error);
+        setLoading(true);
+      });
   }, []);
+
+  if (loading) {
+    return (
+      <>
+        <div className="loading-spinner">
+          <ClipLoader color={"#123abc"} loading={true} size={50} />
+          <p>Loading...</p>
+        </div>
+      </>
+    );
+  }
 
   return (
     <>
@@ -25,7 +42,7 @@ const Mouse = () => {
           <div className="pro-container" key={product.id}>
             <Link to={`/products/${product.id}`}>
               <div className="pro">
-                <img src={img} alt={product.name} />
+                <img src={image} alt={product.name} />
                 <div className="des">
                   <span>{product.name}</span>
                   <h5>{product.description}</h5>
