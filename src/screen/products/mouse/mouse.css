@@ -1,5 +1,16 @@
 /* * {border: 1px solid red;} */
 
+.loading-spinner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 45vh;
+}
+
+.loading-spinner p{
+   margin:0 10px ;
+}
+
 .product1 {
    text-align: center;
    display: flex;

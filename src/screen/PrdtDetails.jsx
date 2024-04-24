@@ -4,6 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import "./prdtdetails.css";
 import { addToCart } from "./Cart/cartSlice";
+import { ClipLoader } from "react-spinners";
 // const img = require("../assets/mouse/mouse1.png")
 
 
@@ -34,7 +35,14 @@ const PrdtDetails = () => {
   }, [id]);
 
   if (!product) {
-    return <div>Loading...</div>;
+    return (
+      <>
+        <div className="loading-spinner">
+          <ClipLoader color={"#123abc"} loading={true} size={50} />
+          <p>Loading...</p>
+        </div>
+      </>
+    );
   }
 
   return (

@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+.babelrc
+webpack.config.js
 
 # production
 /build
