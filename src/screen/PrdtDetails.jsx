@@ -6,6 +6,9 @@ import "./prdtdetails.css";
 import { addToCart } from "./Cart/cartSlice";
 import { ClipLoader } from "react-spinners";
 
+import image from "../../../assets/mouse/mouse5.png";
+
+
 const PrdtDetails = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
@@ -46,7 +49,7 @@ const PrdtDetails = () => {
   return (
     <section id="prodetails" className="section-p1">
       <div className="single-pro-img">
-        <img src={product.image} alt="" />
+        <img src={image} alt="" />
       </div>
 
       <div className="single-pro-details">

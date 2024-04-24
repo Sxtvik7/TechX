@@ -10,6 +10,7 @@ import {
   removeFromCart,
 } from "./cartSlice";
 const img = require("../../assets/EmptyCart.png");
+import image from "../../../assets/mouse/mouse5.png";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
@@ -70,7 +71,7 @@ const Cart = () => {
               {cart.cartItems?.map((cartItem) => (
                 <div className="cart-item" key={cartItem.id}>
                   <div className="cart-pro">
-                    <img src={cartItem.image} alt={cartItem.name} />
+                    <img src={image} alt={cartItem.name} />
                     <div>
                       <h3>{cartItem.name}</h3>
                       <p className="desc">{cartItem.description}</p>

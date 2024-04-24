@@ -3,7 +3,7 @@ import "./mouse.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
-import image from "../../../assets/mouse/mouse3.png";
+import image from "../../../assets/mouse/mouse5.png";
 
 const Mouse = () => {
   const [loading, setLoading] = useState(true);
