@@ -5,10 +5,12 @@ import App from './App';
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux"
 import cartSlice, { cartTotal } from './screen/Cart/cartSlice';
+import usersSlice from './screen/Login&signup from/usersSlice';
 
 const store = configureStore({
   reducer: {
-    cart: cartSlice
+    cart: cartSlice,
+    user: usersSlice
   }
 })
 

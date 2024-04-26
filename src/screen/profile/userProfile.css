@@ -1,0 +1,30 @@
+/* *{border: 1px solid red;} */
+
+.profile-main{
+    text-align: center;
+    height: 50vh;
+}
+
+.profile-main h2{
+    margin-top: 20px;
+}
+
+.profile-info{
+    margin-top: 40px;
+}
+
+.profile-info button{
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin-top: 1rem;
+    padding: 8px;
+    background-color: #118a82;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.profile-info button:hover{
+    background-color: #ab0e0e;
+}

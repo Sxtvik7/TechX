@@ -40,7 +40,7 @@ const Cart = () => {
     <section id="cart" className="section-p1">
       {cart.cartItems.length === 0 ? (
         <>
-          {console.log(cart)}
+          {/* {console.log(cart)} */}
           <section>
             <div id="empty-cart-img">
               <img src={img} alt="Empty Cart" />

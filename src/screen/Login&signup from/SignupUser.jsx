@@ -3,6 +3,8 @@ import "./signupUser.css";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
+import { useDispatch } from "react-redux";
+import { login } from "./usersSlice";
 
 const SignupUser = () => {
   const [name, setName] = useState("");
@@ -11,15 +13,17 @@ const SignupUser = () => {
 
   const navigate = useNavigate();
 
+  const dispatch = useDispatch();
+
   const submitHandler = async (e) => {
     e.preventDefault();
     if (!name || !email || !password) {
-      alert("Please fill in all the fields");
+      toast.error("Please fill in all the fields");
       return;
     }
     try {
       await axios.post(
-        "https://techx-backend.onrender.com/api/v1/user/register",
+        "http://localhost:4000/api/v1/user/register",
         { name, email, password },
         {
           headers: {
@@ -28,11 +32,21 @@ const SignupUser = () => {
           withCredentials: true,
         }
       );
+
+      dispatch(
+        login({
+          name: name,
+          email: email,
+          password: password,
+          loggedIn: true,
+        })
+      );
+
       toast.success("Signup Successfull");
       navigate("/");
     } catch (err) {
-      console.error(err.response.data.message);
-      alert(err.response.data.message);
+      // console.error(err.response.data.message);
+      toast.error(err.response.data.message);
     }
   };
 

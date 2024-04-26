@@ -13,6 +13,7 @@ import About from "./screen/about/About.jsx";
 import SignupUser from "./screen/Login&signup from/SignupUser.jsx";
 import LoginUser from "./screen/Login&signup from/LoginUser.jsx";
 import { Toaster } from "react-hot-toast";
+import UserProfile from "./screen/profile/UserProfile.jsx";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/signup" element={<SignupUser />} />
         <Route path="/login" element={<LoginUser />} />
+        <Route path="/profile" element={<UserProfile/>} />
       </Routes>
       <Footer />
       <Toaster />

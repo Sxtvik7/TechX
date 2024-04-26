@@ -5,8 +5,7 @@ import { useDispatch } from "react-redux";
 import "./prdtdetails.css";
 import { addToCart } from "./Cart/cartSlice";
 import { ClipLoader } from "react-spinners";
-
-import image from "../assets/mouse/mouse5.png";
+// const img = require("../assets/mouse/mouse1.png")
 
 
 const PrdtDetails = () => {
@@ -25,7 +24,7 @@ const PrdtDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`https://techx-backend.onrender.com/api/v1/products/${id}`)
+      .get(`http://localhost:4000/api/v1/products/${id}`)
       .then((response) => {
         setProduct(response.data);
         // console.log(response.data)
