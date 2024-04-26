@@ -39,7 +39,7 @@ function Header() {
               <i className="bi bi-cart2"></i>{' '}
               <div className="cartAmount">{cartTotalQuantity}</div>
             </Link>
-            <Link to="/signup" onClick={toggleMenu}>
+            <Link to="/profile" onClick={toggleMenu}>
               <i className="bi bi-person-circle"><span> Profile</span></i>
             </Link>
           </div>
