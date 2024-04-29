@@ -308,3 +308,17 @@
         padding: 20px;
     }
 }
+
+@media (max-width : 390px){
+    .cart-item .cart-pro img {
+        width: 240px;
+        max-width: 100%;
+        margin-right: 3rem;
+    }
+
+    .cart-pro {
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+    }
+}
