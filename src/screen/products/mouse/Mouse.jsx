@@ -14,7 +14,7 @@ const Mouse = () => {
       .get("https://techx-backend.onrender.com/api/v1/products")
       .then((response) => {
         setProducts(response.data);
-        // console.log(response.data[2].image);
+        console.log(response.data[0]);
         setLoading(false);
       })
       .catch((error) => {
