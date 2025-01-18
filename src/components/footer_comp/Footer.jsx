@@ -5,9 +5,9 @@ import techxLogo from "../../assets/logo-techx.png";
 function Footer() {
   return (
     <>
-      <footer class="section-p1">
-        <div class="col">
-          <img src={techxLogo} class="logo" alt="" />
+      <footer className="section-p1">
+        <div className="col">
+          <img src={techxLogo} className="logo" alt="" />
 
           <h4>Contact</h4>
           <p>
@@ -22,19 +22,19 @@ function Footer() {
             <strong> Hours : </strong> 10:00 - 18:00 , Mon - Sat
           </p>
           <br />
-          <div class="follow">
+          <div className="follow">
             <h4>Follow us</h4>
 
-            <div class="icon">
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-twitter"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-youtube"></i>
+            <div className="icon">
+              <i className="bi bi-facebook"></i>
+              <i className="bi bi-twitter"></i>
+              <i className="bi bi-instagram"></i>
+              <i className="bi bi-youtube"></i>
             </div>
           </div>
         </div>
 
-        <div class="col">
+        <div className="col">
           <h4>About</h4>
 
           <Link to="/about">About us</Link>
@@ -44,7 +44,7 @@ function Footer() {
           <Link to="/contact">Contact Us</Link>
         </div>
 
-        <div class="col">
+        <div className="col">
           <h4>My Account</h4>
 
           <Link to="#">Sign In</Link>
