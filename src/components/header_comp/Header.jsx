@@ -22,7 +22,7 @@ function Header() {
 
         <main>
           <div id="navbar" className={menuOpen ? 'open' : ''}>
-            <span className="close" onClick={toggleMenu}><i class="bi bi-x-circle"></i></span>
+            <span className="close" onClick={toggleMenu}><i className="bi bi-x-circle"></i></span>
             <Link to="/" onClick={toggleMenu}>
               Home
             </Link>
