@@ -32,9 +32,9 @@ function Header() {
             <Link to="/about" onClick={toggleMenu}>
               About
             </Link>
-            <Link to="/contact" onClick={toggleMenu}>
+            {/* <Link to="/contact" onClick={toggleMenu}>
               Contact
-            </Link>
+            </Link> */}
             <Link to="/cart" className="cart" onClick={toggleMenu}>
               <i className="bi bi-cart2"></i>{' '}
               <div className="cartAmount">{cartTotalQuantity}</div>

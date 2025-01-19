@@ -6,7 +6,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: sticky;
-    background-color: #E3E6F3;
+    background-color: #ffffff;
     top: 0;
     z-index: 10;
 }
@@ -35,9 +35,10 @@ nav>main>div>a:hover {
 
 .cart {
     position: relative;
-    background-color: #E3E6F3;
+    background-color: #edeef2;
+    border-radius: 50%;
     color: black;
-    padding: 5px;
+    padding: 7px;
     font-size: 1.5rem;
 }
 

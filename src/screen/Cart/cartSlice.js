@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// Slice is a piece of logic containing action and reducers to handle state of a particular feature
+
 const initialState = {
   cartItems: localStorage.getItem("cartItems")
     ? JSON.parse(localStorage.getItem("cartItems"))

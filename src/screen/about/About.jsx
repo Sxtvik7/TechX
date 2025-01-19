@@ -11,18 +11,26 @@ const About = () => {
             <h1>About us</h1>
           </div>
           <div className="content">
-            <h3>Lorem ipsum dolor sit amet.</h3>
+            <h3>TechX – Redefining the Tech Experience.</h3>
+            <br />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
-              possimus ad odit voluptatem reprehenderit molestias? Ullam id,
-              optio iure libero repellat dolorem, a repellendus possimus quos
-              hic aliquam ut ad eligendi facilis repudiandae corrupti nihil
-              deserunt? Est, quae aperiam magnam eius dignissimos ullam non
-              recusandae eveniet unde nobis provident explicabo?
+            Welcome to TechX, your ultimate destination for premium computer accessories. Whether 
+            you’re a professional, a casual user, or an eSports athlete, we provide the perfect gear 
+            to enhance your productivity, creativity, and performance.
             </p>
-            {/* <div className="button">
-                    <button id="read-more">Read More</button>
-                </div> */}
+
+            <p>
+            At TechX, we cater to a diverse audience by offering a wide range of high-quality products, from essential computer peripherals to advanced gaming accessories. For eSports athletes, we ensure you have access to the best tools designed for speed, precision, and durability to help you dominate the competition. For everyday users, we provide reliable, cutting-edge solutions to make your digital life seamless and efficient.
+            </p>
+
+            <p>
+            Our platform offers a seamless shopping experience with a comprehensive product catalog, a user-friendly interface, and a secure checkout process powered by our advanced payment system.
+            </p>
+            
+            <p>
+            Discover the best in technology and performance with TechX – empowering everyone, from everyday users to elite gamers, to achieve more.
+            </p>
+
           </div>
         </div>
         <div className="image-section">

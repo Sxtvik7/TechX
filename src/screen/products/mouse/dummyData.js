@@ -53,4 +53,4 @@ const dummyProducts = [
    
 ]
 
-// export default dummyProducts;
+export default dummyProducts;

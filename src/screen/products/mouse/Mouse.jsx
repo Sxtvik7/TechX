@@ -3,7 +3,8 @@ import "./mouse.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
-import image from "../../../assets/mouse/mouse5.png";
+// import dummyProducts from "./dummyData";
+
 
 const Mouse = () => {
   const [loading, setLoading] = useState(true);
@@ -13,8 +14,8 @@ const Mouse = () => {
     axios
       .get("https://techx-backend.onrender.com/api/v1/products")
       .then((response) => {
-        setProducts(response.data);
-        console.log(response.data[0]);
+        setProducts(response?.data);
+        console.log(response?.data);
         setLoading(false);
       })
       .catch((error) => {
@@ -34,15 +35,17 @@ const Mouse = () => {
     );
   }
 
+  // console.log("dummyData", products)
+
   return (
     <>
       <h2 className="pro_head">Best Selling Mouse</h2>
       <section className="product1">
-        {products.map((product) => (
+        {products?.map((product) => (
           <div className="pro-container" key={product.id}>
-            <Link to={`/products/${product.id}`}>
+             <Link to={`/products/${product.id}`}>
               <div className="pro">
-                <img src={image} alt={product.name} />
+              <img src={product.image} alt={product.name} />
                 <div className="des">
                   <span>{product.name}</span>
                   <h5>{product.description}</h5>

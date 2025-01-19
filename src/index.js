@@ -7,6 +7,7 @@ import { Provider } from "react-redux"
 import cartSlice, { cartTotal } from './screen/Cart/cartSlice';
 import usersSlice from './screen/Login&signup from/usersSlice';
 
+// Store acts as a center place for all our states.
 const store = configureStore({
   reducer: {
     cart: cartSlice,

@@ -1,4 +1,3 @@
-/* *{border: 1px solid red;} */
 
 .section-p1 {
     padding: 40px 80px;
@@ -173,9 +172,12 @@
     font-size: 0.9rem;
     font-weight: bold;
     cursor: pointer;
-    padding: 7px;
     width: 200px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .checkout:hover {
@@ -207,6 +209,18 @@
 
 #cart-empty>a:hover {
     background-color: #0eaba1;
+}
+
+/* *{border: 1px solid red;} */
+
+.payment-div{
+    display: flex;
+    justify-content: center;
+}
+
+.payment-container{
+    padding: 10px;
+    width: 50%;
 }
 
 @media (max-width:1024px) {
