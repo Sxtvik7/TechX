@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import "./prdtdetails.css";
 import { addToCart } from "./Cart/cartSlice";
 import { ClipLoader } from "react-spinners";
-const img = require("../assets/mouse/mouse5.png")
+// const img = require("../assets/mouse/mouse5.png")
 
 
 const PrdtDetails = () => {
@@ -48,14 +48,14 @@ const PrdtDetails = () => {
   return (
     <section id="prodetails" className="section-p1">
       <div className="single-pro-img">
-        <img src={img} alt="" />
+        <img src={product.image} alt="" />
       </div>
 
       <div className="single-pro-details">
         <h6>Home / mouse</h6>
         <h4>{product.name}</h4>
         <h2>₹{product.price}</h2>
-        <input type="number" value="1" />
+        {/* <input type="number" value="1" /> */}
         <button onClick={()=> handleAddToCart(product)}>Add To Cart</button>
         <h4>Details</h4>
         <span>{product.details}</span>

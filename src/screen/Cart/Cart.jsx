@@ -9,8 +9,8 @@ import {
   decreaseCart,
   removeFromCart,
 } from "./cartSlice";
-const img = require("../../assets/EmptyCart.png");
-const imge = require("../../assets/mouse/mouse5.png")
+import Checkout from "../../components/paymentButton/PaymentButton";
+import emptyCartimg from "../../assets/EmptyCart.png"
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
@@ -36,6 +36,11 @@ const Cart = () => {
     dispatch(clearCart());
   };
 
+  // console.log("CART", cart)
+  // console.log("CART", cart.cartTotalQuantity)
+  // console.log("CART", cart.cartTotalAmount)
+  // console.log("CART", cart.cartItems[0].name)
+
   return (
     <section id="cart" className="section-p1">
       {cart.cartItems.length === 0 ? (
@@ -43,7 +48,7 @@ const Cart = () => {
           {/* {console.log(cart)} */}
           <section>
             <div id="empty-cart-img">
-              <img src={img} alt="Empty Cart" />
+              <img src={emptyCartimg} alt="Empty Cart" />
             </div>
             <div id="cart-empty">
               <span>Your cart is currently empty</span>
@@ -71,7 +76,7 @@ const Cart = () => {
               {cart.cartItems?.map((cartItem) => (
                 <div className="cart-item" key={cartItem.id}>
                   <div className="cart-pro">
-                    <img src={imge} alt={cartItem.name} />
+                    <img src={cartItem.image} alt={cartItem.name} />
                     <div>
                       <h3>{cartItem.name}</h3>
                       <p className="desc">{cartItem.description}</p>
@@ -126,9 +131,16 @@ const Cart = () => {
                   </td>
                 </tr>
               </table>
-              <button className="checkout">Proceed to checkout</button>
+              {/* <button className="checkout">Proceed to checkout </button>  */}
             </div>
           </section>
+          <div className="payment-div">
+            <div className="payment-container">
+                <div className="payment">
+                  <Checkout className="payment_btn" cartTotal={Number(cart.cartTotalAmount)}/>
+                </div>
+            </div>
+          </div>
         </>
       )}
     </section>

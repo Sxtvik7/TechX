@@ -1,0 +1,19 @@
+/* *{border: 1px solid red;} */
+
+.pay-element{
+    padding: 10px;
+}
+
+.pay-btn{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+    padding: 12px;
+    background-color: #118a82;
+    border-radius: 10px;
+    border: none;
+} 
+.pay-btn:hover{
+    background-color: #0eaba1;
+}

@@ -3,7 +3,6 @@ import "./mouse.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
-// import image from "../../../assets/mouse/mouse5.png";
 // import dummyProducts from "./dummyData";
 
 
@@ -46,7 +45,7 @@ const Mouse = () => {
           <div className="pro-container" key={product.id}>
              <Link to={`/products/${product.id}`}>
               <div className="pro">
-              <img src={product.images} alt={product.name} />
+              <img src={product.image} alt={product.name} />
                 <div className="des">
                   <span>{product.name}</span>
                   <h5>{product.description}</h5>

@@ -14,6 +14,7 @@ import SignupUser from "./screen/Login&signup from/SignupUser.jsx";
 import LoginUser from "./screen/Login&signup from/LoginUser.jsx";
 import { Toaster } from "react-hot-toast";
 import UserProfile from "./screen/profile/UserProfile.jsx";
+import Success from "./screen/Success/Success.jsx";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/signup" element={<SignupUser />} />
         <Route path="/login" element={<LoginUser />} />
         <Route path="/profile" element={<UserProfile/>} />
+        <Route path="/thank-you" element={<Success/>} />
       </Routes>
       <Footer />
       <Toaster />
